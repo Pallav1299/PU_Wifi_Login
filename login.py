@@ -6,6 +6,9 @@ from time import sleep
 usr = "username/login ID"    # replace "username/login ID" with your username. example-: '123456'  
 pwd = "Password"             # replace "Password" with your password. example-: 'abcdef'
 
+#usr=input('Enter username') # asks for the username/login ID, everytime you run this script.
+#pwd=input('Enter Password') # asks for the password, everytime you run this script.
+
 driver = webdriver.Firefox() 
 driver.get('https://securelogin.pu.ac.in/cgi-bin/login?cmd=login&mac=a0:af:bd:ab:52:34&ip=172.16.178.36&essid=PU%40CAMPUS&apname=UIET_BLK1_1F_L1&apgroup=PU-AP-UIET&url=http%3A%2F%2Fbit%2Edo%2FWifion') 
 print ("PU login")
